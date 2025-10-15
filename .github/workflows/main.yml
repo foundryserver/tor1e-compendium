@@ -8,7 +8,7 @@ on:
         branches: [main]
 
 jobs:
-    package:
+    Release-Module:
         runs-on: ubuntu-latest
 
         steps:
@@ -40,8 +40,15 @@ jobs:
                   name: ${{ steps.module_info.outputs.name }}-${{ steps.module_info.outputs.version }}
                   path: dist/${{ steps.module_info.outputs.name }}-${{ steps.module_info.outputs.version }}.zip
 
+            - name: Debug Release Info
+              run: |
+                  echo "GitHub ref: ${{ github.ref }}"
+                  echo "GitHub ref type: ${{ github.ref_type }}"
+                  echo "Is tag: ${{ github.ref_type == 'tag' }}"
+                  echo "Starts with refs/tags/: ${{ startsWith(github.ref, 'refs/tags/') }}"
+
             - name: Create Release
-              if: startsWith(github.ref, 'refs/tags/')
+              if: github.ref_type == 'tag'
               uses: softprops/action-gh-release@v1
               with:
                   files: dist/${{ steps.module_info.outputs.name }}-${{ steps.module_info.outputs.version }}.zip
@@ -50,3 +57,21 @@ jobs:
                   prerelease: false
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+            - name: Workflow Summary
+              run: |
+                  echo "## 📦 Foundry VTT Module Packaging Complete" >> $GITHUB_STEP_SUMMARY
+                  echo "### Module Information" >> $GITHUB_STEP_SUMMARY
+                  echo "- **Name:** ${{ steps.module_info.outputs.name }}" >> $GITHUB_STEP_SUMMARY
+                  echo "- **Title:** ${{ steps.module_info.outputs.title }}" >> $GITHUB_STEP_SUMMARY
+                  echo "- **Version:** ${{ steps.module_info.outputs.version }}" >> $GITHUB_STEP_SUMMARY
+                  echo "- **Package:** ${{ steps.module_info.outputs.name }}-${{ steps.module_info.outputs.version }}.zip" >> $GITHUB_STEP_SUMMARY
+                  echo "" >> $GITHUB_STEP_SUMMARY
+                  if [[ "${{ github.ref_type }}" == "tag" ]]; then
+                    echo "### ✅ Release Created" >> $GITHUB_STEP_SUMMARY
+                    echo "A new release has been created with the packaged module attached." >> $GITHUB_STEP_SUMMARY
+                  else
+                    echo "### 📋 Artifact Uploaded" >> $GITHUB_STEP_SUMMARY
+                    echo "Module package has been uploaded as a workflow artifact." >> $GITHUB_STEP_SUMMARY
+                    echo "**Note:** To create a release, push a tag: \`git tag v1.0.0 && git push origin v1.0.0\`" >> $GITHUB_STEP_SUMMARY
+                  fi
