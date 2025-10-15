@@ -1,0 +1,28 @@
+{
+  "name": "fvtt-tor1e-compendium",
+  "title": "TOR1E - Compendium (en)",
+  "description": "<p>TOR1E: Compendium including all character sheet features (skills, traits, special abilities) and standard equipment (weapons, armor pieces, ...)</p>",
+  "version": "11.0.0",
+  "author": "Ghorin",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.313",
+    "maximum": "11"
+  },
+  "packs": [
+    {
+      "name": "tor1e-compendium-en",
+      "label": "TOR1e Compendium EN",
+      "path": "packs/tor1e-compendium-en",
+      "type": "Macro",
+      "system": "tor1e",
+      "banner": "",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "esmodules": ["./main.mjs"],
+  "url": "https://gitlab.com/ghorin/fvtt-tor1e-compendium",
+  "manifest": "https://gitlab.com/ghorin/fvtt-tor1e-compendium/-/raw/master/module.json",
+  "download": "https://gitlab.com/ghorin/fvtt-tor1e-compendium/-/archive/11.0.0/fvtt-tor1e-compendium-11.0.0.zip"
+}
