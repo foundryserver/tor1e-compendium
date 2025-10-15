@@ -23,6 +23,6 @@
   ],
   "esmodules": ["./main.mjs"],
   "url": "https://github.com/foundryserver/tor1e-compendium",
-  "manifest": "https://github.com/foundryserver/tor1e-compendium/blob/main/module.json",
+  "manifest": "https://github.com/foundryserver/tor1e-compendium/raw/main/module.json",
   "download": "https://github.com/foundryserver/tor1e-compendium/archive/refs/tags/v1.0.3.zip"
 }
