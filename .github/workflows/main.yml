@@ -60,7 +60,7 @@ jobs:
 
             - name: Workflow Summary
               run: |
-                  echo "## 📦 Foundry VTT Module Packaging Complete" >> $GITHUB_STEP_SUMMARY
+                  echo "### 📦 Foundry VTT Module Packaging Complete" >> $GITHUB_STEP_SUMMARY
                   echo "### Module Information" >> $GITHUB_STEP_SUMMARY
                   echo "- **Name:** ${{ steps.module_info.outputs.name }}" >> $GITHUB_STEP_SUMMARY
                   echo "- **Title:** ${{ steps.module_info.outputs.title }}" >> $GITHUB_STEP_SUMMARY
