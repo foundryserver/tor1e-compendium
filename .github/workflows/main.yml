@@ -19,7 +19,7 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@v4
               with:
-                  fetch-depth: 0 # Needed for tagging
+                  fetch-depth: 0 # Needed for tagging.
 
             - name: Check for release tag in commit message
               id: check_release
