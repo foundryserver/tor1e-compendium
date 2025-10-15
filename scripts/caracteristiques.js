@@ -57,7 +57,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesDetaillees._id,
-      data: {
+      system: {
         associatedStat: { value: "body" },
         description: { value: "<p><em>Core Rule Book, page 85</em></p>" },
         favoured: { value: false },
@@ -69,7 +69,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesDetaillees._id,
-      data: {
+      system: {
         associatedStat: { value: "body" },
         description: { value: "<p><em>Core Rule Book, page 86</em></p>" },
         favoured: { value: false },
@@ -81,7 +81,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesDetaillees._id,
-      data: {
+      system: {
         associatedStat: { value: "body" },
         description: { value: "<p><em>Core Rule Book, page 87</em></p>" },
         favoured: { value: false },
@@ -93,7 +93,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesDetaillees._id,
-      data: {
+      system: {
         associatedStat: { value: "body" },
         description: { value: "<p><em>Core Rule Book, page 88</em></p>" },
         favoured: { value: false },
@@ -105,7 +105,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesDetaillees._id,
-      data: {
+      system: {
         associatedStat: { value: "body" },
         description: { value: "<p><em>Core Rule Book, page 88</em></p>" },
         favoured: { value: false },
@@ -117,7 +117,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesDetaillees._id,
-      data: {
+      system: {
         associatedStat: { value: "body" },
         description: { value: "<p><em>Core Rule Book, page 89</em></p>" },
         favoured: { value: false },
@@ -131,7 +131,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesDetaillees._id,
-      data: {
+      system: {
         associatedStat: { value: "heart" },
         description: { value: "<p><em>Core Rule Book, page 86</em></p>" },
         favoured: { value: false },
@@ -143,7 +143,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesDetaillees._id,
-      data: {
+      system: {
         associatedStat: { value: "heart" },
         description: { value: "<p><em>Core Rule Book, page 86</em></p>" },
         favoured: { value: false },
@@ -155,7 +155,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesDetaillees._id,
-      data: {
+      system: {
         associatedStat: { value: "heart" },
         description: { value: "<p><em>Core Rule Book, page 87</em></p>" },
         favoured: { value: false },
@@ -167,7 +167,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesDetaillees._id,
-      data: {
+      system: {
         associatedStat: { value: "heart" },
         description: { value: "<p><em>Core Rule Book, page 88</em></p>" },
         favoured: { value: false },
@@ -179,7 +179,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesDetaillees._id,
-      data: {
+      system: {
         associatedStat: { value: "heart" },
         description: { value: "<p><em>Core Rule Book, page 89</em></p>" },
         favoured: { value: false },
@@ -191,7 +191,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesDetaillees._id,
-      data: {
+      system: {
         associatedStat: { value: "heart" },
         description: { value: "<p><em>Core Rule Book, page 89</em></p>" },
         favoured: { value: false },
@@ -205,7 +205,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesDetaillees._id,
-      data: {
+      system: {
         associatedStat: { value: "wits" },
         description: { value: "<p><em>Core Rule Book, page 86</em></p>" },
         favoured: { value: false },
@@ -217,7 +217,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesDetaillees._id,
-      data: {
+      system: {
         associatedStat: { value: "wits" },
         description: { value: "<p><em>Core Rule Book, page 87</em></p>" },
         favoured: { value: false },
@@ -229,7 +229,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesDetaillees._id,
-      data: {
+      system: {
         associatedStat: { value: "wits" },
         description: { value: "<p><em>Core Rule Book, page 88</em></p>" },
         favoured: { value: false },
@@ -241,7 +241,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesDetaillees._id,
-      data: {
+      system: {
         associatedStat: { value: "wits" },
         description: { value: "<p><em>Core Rule Book, page 88</em></p>" },
         favoured: { value: false },
@@ -253,7 +253,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesDetaillees._id,
-      data: {
+      system: {
         associatedStat: { value: "wits" },
         description: { value: "<p><em>Core Rule Book, page 89</em></p>" },
         favoured: { value: false },
@@ -265,7 +265,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesDetaillees._id,
-      data: {
+      system: {
         associatedStat: { value: "wits" },
         description: { value: "<p><em>Core Rule Book, page 90</em></p>" },
         favoured: { value: false },
@@ -279,7 +279,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesGeneriques._id,
-      data: {
+      system: {
         associatedStat: { value: "personality" },
         description: { value: "<p><em>Core Rule Book, page 85</em></p>" },
         favoured: { value: false },
@@ -291,7 +291,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesGeneriques._id,
-      data: {
+      system: {
         associatedStat: { value: "movement" },
         description: { value: "<p><em>Core Rule Book, page 85</em></p>" },
         favoured: { value: false },
@@ -303,7 +303,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesGeneriques._id,
-      data: {
+      system: {
         associatedStat: { value: "perception" },
         description: { value: "<p><em>Core Rule Book, page 85</em></p>" },
         favoured: { value: false },
@@ -315,7 +315,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesGeneriques._id,
-      data: {
+      system: {
         associatedStat: { value: "survival" },
         description: { value: "<p><em>Core Rule Book, page 85</em></p>" },
         favoured: { value: false },
@@ -327,7 +327,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesGeneriques._id,
-      data: {
+      system: {
         associatedStat: { value: "custom" },
         description: { value: "<p><em>Core Rule Book, page 85</em></p>" },
         favoured: { value: false },
@@ -339,7 +339,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "skill",
       img: "systems/tor1e/assets/images/icons/skill.png",
       folder: dossierCompetencesGeneriques._id,
-      data: {
+      system: {
         associatedStat: { value: "vocation" },
         description: { value: "<p><em>Core Rule Book, page 85</em></p>" },
         favoured: { value: false },
@@ -354,7 +354,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/weapon_dagger.png",
       folder: dossierCompetencesArmes._id,
       permission: { default: 2 },
-      data: {
+      system: {
         associatedStat: { value: "body" },
         description: { value: "<p><em>Core Rule Book, page 92</em></p>" },
         favoured: { value: false },
@@ -367,7 +367,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/weapon_mattock.png",
       folder: dossierCompetencesArmes._id,
       permission: { default: 2 },
-      data: {
+      system: {
         associatedStat: { value: "body" },
         description: { value: "<p><em>Core Rule Book, page 92</em></p>" },
         favoured: { value: false },
@@ -380,7 +380,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/weapon_swords.png",
       folder: dossierCompetencesArmes._id,
       permission: { default: 2 },
-      data: {
+      system: {
         associatedStat: { value: "body" },
         description: { value: "<p><em>Core Rule Book, page 92</em></p>" },
         favoured: { value: false },
@@ -393,7 +393,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/weapon_swords.png",
       folder: dossierCompetencesArmes._id,
       permission: { default: 2 },
-      data: {
+      system: {
         associatedStat: { value: "body" },
         description: { value: "<p><em>Core Rule Book, page 92</em></p>" },
         favoured: { value: false },
@@ -406,7 +406,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/weapon_swords.png",
       folder: dossierCompetencesArmes._id,
       permission: { default: 2 },
-      data: {
+      system: {
         associatedStat: { value: "body" },
         description: { value: "<p><em>Core Rule Book, page 92</em></p>" },
         favoured: { value: false },
@@ -419,7 +419,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/weapon_swords.png",
       folder: dossierCompetencesArmes._id,
       permission: { default: 2 },
-      data: {
+      system: {
         associatedStat: { value: "body" },
         description: { value: "<p><em>Core Rule Book, page 92</em></p>" },
         favoured: { value: false },
@@ -432,7 +432,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/weapon_spears.png",
       folder: dossierCompetencesArmes._id,
       permission: { default: 2 },
-      data: {
+      system: {
         associatedStat: { value: "body" },
         description: { value: "<p><em>Core Rule Book, page 92</em></p>" },
         favoured: { value: false },
@@ -445,7 +445,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/weapon_spears.png",
       folder: dossierCompetencesArmes._id,
       permission: { default: 2 },
-      data: {
+      system: {
         associatedStat: { value: "body" },
         description: { value: "<p><em>Core Rule Book, page 92</em></p>" },
         favoured: { value: false },
@@ -458,7 +458,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/weapon_spears.png",
       folder: dossierCompetencesArmes._id,
       permission: { default: 2 },
-      data: {
+      system: {
         associatedStat: { value: "body" },
         description: { value: "<p><em>Core Rule Book, page 92</em></p>" },
         favoured: { value: false },
@@ -471,7 +471,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/weapon_axes.png",
       folder: dossierCompetencesArmes._id,
       permission: { default: 2 },
-      data: {
+      system: {
         associatedStat: { value: "body" },
         description: { value: "<p><em>Core Rule Book, page 92</em></p>" },
         favoured: { value: false },
@@ -484,7 +484,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/weapon_axes.png",
       folder: dossierCompetencesArmes._id,
       permission: { default: 2 },
-      data: {
+      system: {
         associatedStat: { value: "body" },
         description: { value: "<p><em>Core Rule Book, page 92</em></p>" },
         favoured: { value: false },
@@ -497,7 +497,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/weapon_axes.png",
       folder: dossierCompetencesArmes._id,
       permission: { default: 2 },
-      data: {
+      system: {
         associatedStat: { value: "body" },
         description: { value: "<p><em>Core Rule Book, page 92</em></p>" },
         favoured: { value: false },
@@ -510,7 +510,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/weapon_bows.png",
       folder: dossierCompetencesArmes._id,
       permission: { default: 2 },
-      data: {
+      system: {
         associatedStat: { value: "body" },
         description: { value: "<p><em>Core Rule Book, page 92</em></p>" },
         favoured: { value: false },
@@ -523,7 +523,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/weapon_bows.png",
       folder: dossierCompetencesArmes._id,
       permission: { default: 2 },
-      data: {
+      system: {
         associatedStat: { value: "body" },
         description: { value: "<p><em>Core Rule Book, page 92</em></p>" },
         favoured: { value: false },
@@ -536,7 +536,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/weapon_bows.png",
       folder: dossierCompetencesArmes._id,
       permission: { default: 2 },
-      data: {
+      system: {
         associatedStat: { value: "body" },
         description: { value: "<p><em>Core Rule Book, page 92</em></p>" },
         favoured: { value: false },
@@ -603,7 +603,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 240</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -614,7 +614,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Guide de la Ville du lac, page 23</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -625,7 +625,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 240</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -636,7 +636,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 240</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -647,7 +647,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 240</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -658,14 +658,14 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: { description: { value: "<p><em>Erebor, page 75</em></p>" }, active: { value: false }, cost: { value: 0 } },
+      system: { description: { value: "<p><em>Erebor, page 75</em></p>" }, active: { value: false }, cost: { value: 0 } },
     });
     await Item.create({
       name: "Sun Aversion",
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 240</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -676,7 +676,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>The Vestiges of the North, page 58</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -687,7 +687,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 95</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -698,7 +698,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 240</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -709,7 +709,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 240</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -720,7 +720,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Ténèbres sur la Forêt noire, page 13</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -731,7 +731,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 68</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -742,7 +742,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 241</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -753,7 +753,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Wildlands Guide, page 120</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -764,7 +764,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Ténèbres sur la Forêt noire, page 110</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -775,7 +775,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 241</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -786,7 +786,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 72</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -797,7 +797,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 241</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -808,7 +808,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 288</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -819,7 +819,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 241</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -830,7 +830,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 241</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -841,7 +841,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 241</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -852,7 +852,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Wildlands Guide, page 112</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -863,7 +863,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 242</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -874,7 +874,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Wildlands Guide, page 119</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -885,7 +885,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 242</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -896,7 +896,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Wildlands Guide, page 45</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -907,7 +907,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 68</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -918,7 +918,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Wildlands Guide, page 100 et 122</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -929,7 +929,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book.</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -940,7 +940,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 242</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -951,7 +951,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 242</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -962,7 +962,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 68</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -973,7 +973,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 68</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -984,7 +984,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 68</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -995,7 +995,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 242</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -1006,7 +1006,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 242</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -1017,7 +1017,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: {
           value: "<p><em>Wildlands Guide / Tales and Legends of the Wild Lands, page 111 / 141</em></p>",
         },
@@ -1030,7 +1030,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 68</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -1041,7 +1041,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Tales and Legends of the Wild Lands, page 127</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -1052,7 +1052,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Wildlands Guide, page 119</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -1063,7 +1063,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Tales and Legends of the Wild Lands, page 20</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -1074,7 +1074,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Wildlands Guide, page 122</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -1085,7 +1085,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Tales and Legends of the Wild Lands, page 56</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -1096,7 +1096,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 68</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -1107,7 +1107,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Tales and Legends of the Wild Lands, page 75</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -1118,7 +1118,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 242</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -1129,7 +1129,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 68</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -1140,7 +1140,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesNormales._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 242</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -1153,7 +1153,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesAmeliorations._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 67</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -1164,7 +1164,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesAmeliorations._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 67</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -1175,7 +1175,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesAmeliorations._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book.</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -1186,7 +1186,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesAmeliorations._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 67</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -1197,7 +1197,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesAmeliorations._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 67</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -1208,7 +1208,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesAmeliorations._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book.</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -1219,7 +1219,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesAmeliorations._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 67</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -1230,7 +1230,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesAmeliorations._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 67</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -1241,7 +1241,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesAmeliorations._id,
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book.</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -1252,7 +1252,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesAmeliorations._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 67</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -1265,7 +1265,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesPuissantes._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 67</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -1276,7 +1276,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesPuissantes._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 67</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -1287,7 +1287,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesPuissantes._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 68</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -1298,7 +1298,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesPuissantes._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 68</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -1309,7 +1309,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesPuissantes._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 68</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -1320,7 +1320,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesPuissantes._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 68</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -1333,7 +1333,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesMortVivants._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 76</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -1344,7 +1344,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesMortVivants._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 76</em></p>" },
         active: { value: false },
         cost: { value: 0 },
@@ -1355,7 +1355,7 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesMortVivants._id,
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 76</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -1368,28 +1368,28 @@ export class Tor1eCompendiumCaracteristiques {
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesDragons._id,
-      data: { description: { value: "<p><em>Erebor, page 76</em></p>" }, active: { value: false }, cost: { value: 0 } },
+      system: { description: { value: "<p><em>Erebor, page 76</em></p>" }, active: { value: false }, cost: { value: 0 } },
     });
     await Item.create({
       name: "Fiery Breath",
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesDragons._id,
-      data: { description: { value: "<p><em>Erebor, page 76</em></p>" }, active: { value: true }, cost: { value: 1 } },
+      system: { description: { value: "<p><em>Erebor, page 76</em></p>" }, active: { value: true }, cost: { value: 1 } },
     });
     await Item.create({
       name: "Poisonous Breath",
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesDragons._id,
-      data: { description: { value: "<p><em>Erebor, page 76</em></p>" }, active: { value: true }, cost: { value: 1 } },
+      system: { description: { value: "<p><em>Erebor, page 76</em></p>" }, active: { value: true }, cost: { value: 1 } },
     });
     await Item.create({
       name: "Fierce Speed",
       type: "special-ability",
       img: "systems/tor1e/assets/images/icons/adversary_special-ability.png",
       folder: dossierCapacitesSpecialesDragons._id,
-      data: { description: { value: "<p><em>Erebor, page 76</em></p>" }, active: { value: false }, cost: { value: 0 } },
+      system: { description: { value: "<p><em>Erebor, page 76</em></p>" }, active: { value: false }, cost: { value: 0 } },
     });
 
     console.log("-------------------------------------------------------------------");
@@ -1431,7 +1431,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 94</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 94</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Horsemanship",
@@ -1439,7 +1439,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Les Riders of Rohan, page 142</em></p>" },
         group: { value: "speciality" },
       },
@@ -1450,7 +1450,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 94</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 94</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Embroidery",
@@ -1458,7 +1458,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Rivendell, page 15</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Rivendell, page 15</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Cartography",
@@ -1466,7 +1466,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: {
           value: "<p><em>Darkness over Mirkwood / Wildlands Guide, page  130 / 84</em></p>",
         },
@@ -1479,7 +1479,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Rivendell, page 65</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Rivendell, page 65</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Leadership",
@@ -1487,7 +1487,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion, page 104</em></p>" },
         group: { value: "speciality" },
       },
@@ -1498,7 +1498,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 94</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 94</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Fauna Knowledge",
@@ -1506,7 +1506,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 94</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 94</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Mountain Knowledge",
@@ -1514,7 +1514,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Mountainer, page Mountainer</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Mountainer, page Mountainer</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Enemy Knowledge [race]",
@@ -1522,7 +1522,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 94</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 94</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Elven Lore",
@@ -1530,7 +1530,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 95</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 95</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Regional Knowledge",
@@ -1538,7 +1538,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 95</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 95</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Gondor Knowledge",
@@ -1546,7 +1546,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion, page 65</em></p>" },
         group: { value: "speciality" },
       },
@@ -1557,7 +1557,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 95</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 95</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Storytelling",
@@ -1565,7 +1565,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 95</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 95</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Cooking",
@@ -1573,7 +1573,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 95</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 95</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Enemy of Sauron",
@@ -1581,7 +1581,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Rivendell, page 129</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Rivendell, page 129</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Folklore",
@@ -1589,7 +1589,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 95</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 95</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Smithing",
@@ -1597,7 +1597,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 96</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 96</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Smoking",
@@ -1605,7 +1605,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 96</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 96</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Herbalism",
@@ -1613,7 +1613,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 96</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 96</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Gardener",
@@ -1621,7 +1621,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 96</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 96</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Masonry",
@@ -1629,7 +1629,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 96</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 96</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Medicine",
@@ -1637,7 +1637,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 96</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 96</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Minstrel",
@@ -1645,7 +1645,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Guide de la Ville du lac, page 26</em></p>" },
         group: { value: "speciality" },
       },
@@ -1656,7 +1656,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 96</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 96</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Mountaineer",
@@ -1664,7 +1664,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Wildlands Guide, page 45</em></p>" },
         group: { value: "speciality" },
       },
@@ -1675,7 +1675,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 97</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 97</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Swimming",
@@ -1683,7 +1683,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 97</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 97</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Reveler",
@@ -1691,7 +1691,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Wildlands Guide, page 30</em></p>" },
         group: { value: "speciality" },
       },
@@ -1702,7 +1702,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Bree, page 41</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Bree, page 41</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Fishing",
@@ -1710,7 +1710,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 97</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 97</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Tracking",
@@ -1718,7 +1718,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Riders of Rohan, page 150</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Riders of Rohan, page 150</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Knowledge Rhymes",
@@ -1726,7 +1726,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 97</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 97</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Weaving",
@@ -1734,7 +1734,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Wildlands Guide, page 24</em></p>" },
         group: { value: "speciality" },
       },
@@ -1745,7 +1745,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 97</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 97</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Arnor Tradition",
@@ -1753,7 +1753,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Rivendell, page 121</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Rivendell, page 121</em></p>" }, group: { value: "speciality" } },
     });
     await Item.create({
       name: "Troglodyte",
@@ -1761,7 +1761,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/speciality.png",
       folder: dossierSpecialites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 97</em></p>" }, group: { value: "speciality" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 97</em></p>" }, group: { value: "speciality" } },
     });
 
     console.log("Distinctive Features");
@@ -1771,7 +1771,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>The Vestiges of the North, page 95</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -1782,7 +1782,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Tales and Legends of the Wild Lands, page 80</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -1793,7 +1793,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 98</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -1804,7 +1804,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 98</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -1815,7 +1815,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 98</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -1826,7 +1826,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 98</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -1837,7 +1837,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>The Vestiges of the North, page 100</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -1848,7 +1848,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 98</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -1859,7 +1859,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 98</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -1870,7 +1870,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 288</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -1881,7 +1881,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 98</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -1892,7 +1892,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 99</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -1903,7 +1903,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 288</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -1914,7 +1914,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 99</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -1925,7 +1925,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Wildlands Guide, page 30</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -1936,7 +1936,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 99</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -1947,7 +1947,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 99</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -1958,7 +1958,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 99</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -1969,7 +1969,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 99</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -1980,7 +1980,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 99</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -1991,7 +1991,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Wildlands Guide, page 22</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2002,7 +2002,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Les Riders of Rohan, page 190</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2013,7 +2013,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 99</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2024,7 +2024,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 288</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2035,7 +2035,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Wildlands Guide, page 55</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2046,7 +2046,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 99</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2057,7 +2057,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 99</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2068,7 +2068,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 288</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2079,7 +2079,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 99</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2090,7 +2090,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 99</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2101,7 +2101,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 99</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2112,7 +2112,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 100</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2123,7 +2123,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 100</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2134,7 +2134,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 100</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2145,7 +2145,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 100</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2156,7 +2156,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 100</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2167,7 +2167,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 100</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2178,7 +2178,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: {
           value: "<p><em>Darkness over Mirkwood / Wildlands Guide, page 133 / 100</em></p>",
         },
@@ -2191,7 +2191,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 100</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2202,7 +2202,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 100</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2213,7 +2213,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 100</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2224,7 +2224,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 100</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2235,7 +2235,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 100</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2246,7 +2246,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 100</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2257,7 +2257,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 100</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2268,7 +2268,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Rivendell, page 121</em></p>" }, group: { value: "distinctiveFeature" } },
+      system: { description: { value: "<p><em>Rivendell, page 121</em></p>" }, group: { value: "distinctiveFeature" } },
     });
     await Item.create({
       name: "Presumptuous",
@@ -2276,7 +2276,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>The Vestiges of the North, page 55</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2287,7 +2287,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 100</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2298,7 +2298,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 100</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2309,7 +2309,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>The Vestiges of the North, page 100</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2320,7 +2320,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 101</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2331,7 +2331,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 101</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2342,7 +2342,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 101</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2353,7 +2353,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 101</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2364,7 +2364,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 101</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2375,7 +2375,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 101</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2386,7 +2386,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 101</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2397,7 +2397,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 101</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2408,7 +2408,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/distinctive_feature.png",
       folder: dossierParticularites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 101</em></p>" },
         group: { value: "distinctiveFeature" },
       },
@@ -2584,7 +2584,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusMaitrises._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 105</em></p>" },
         type: { value: "tor1e.virtues.groups.masteries" },
       },
@@ -2595,7 +2595,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusMaitrises._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 105</em></p>" },
         type: { value: "tor1e.virtues.groups.masteries" },
       },
@@ -2606,7 +2606,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusMaitrises._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 105</em></p>" },
         type: { value: "tor1e.virtues.groups.masteries" },
       },
@@ -2617,7 +2617,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusMaitrises._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 105</em></p>" },
         type: { value: "tor1e.virtues.groups.masteries" },
       },
@@ -2628,7 +2628,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusMaitrises._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 105</em></p>" },
         type: { value: "tor1e.virtues.groups.masteries" },
       },
@@ -2639,7 +2639,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusMaitrises._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 105</em></p>" },
         type: { value: "tor1e.virtues.groups.masteries" },
       },
@@ -2650,7 +2650,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusMaitrises._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion (vo), page 113</em></p>" },
         type: { value: "tor1e.virtues.groups.masteries" },
       },
@@ -2661,7 +2661,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusMaitrises._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion (vo), page 113</em></p>" },
         type: { value: "tor1e.virtues.groups.masteries" },
       },
@@ -2672,7 +2672,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusMaitrises._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion (vo), page 114</em></p>" },
         type: { value: "tor1e.virtues.groups.masteries" },
       },
@@ -2683,7 +2683,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusMaitrises._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion (vo), page 114</em></p>" },
         type: { value: "tor1e.virtues.groups.masteries" },
       },
@@ -2696,7 +2696,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusBardides._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 105</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2707,7 +2707,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusBardides._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 106</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2718,7 +2718,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusBardides._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 106</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2729,7 +2729,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusBardides._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 106</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2740,7 +2740,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusBardides._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 107</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2751,7 +2751,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusBeornides._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 107</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2762,7 +2762,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusBeornides._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 107</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2773,7 +2773,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusBeornides._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 107</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2784,7 +2784,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusBeornides._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 108</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2795,7 +2795,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusBeornides._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 108</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2806,7 +2806,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusRohirrim._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Riders of Rohan, page 145</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2817,7 +2817,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusRohirrim._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Riders of Rohan, page 23</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2828,7 +2828,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusRohirrim._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Riders of Rohan, page 145</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2839,7 +2839,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusRohirrim._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Riders of Rohan, page 146</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2850,7 +2850,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusRohirrim._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Riders of Rohan, page 146</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2861,7 +2861,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusRohirrim._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Riders of Rohan, page 146</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2872,7 +2872,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesBree._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Bree, page 42</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2883,7 +2883,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesBree._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Bree, page 42</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2894,7 +2894,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesBree._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Bree, page 42</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2905,7 +2905,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesBree._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Bree, page 43</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2916,7 +2916,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesBree._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Bree, page 43</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2927,7 +2927,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesMinasTirith._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion (vo), page 67</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2938,7 +2938,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesMinasTirith._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion (vo), page 67</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2949,7 +2949,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesMinasTirith._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion (vo), page 67</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2960,7 +2960,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesMinasTirith._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion (vo), page 68</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2971,7 +2971,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesMinasTirith._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion (vo), page 68</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2982,7 +2982,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesPaysDun._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Riders of Rohan, page 152</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -2993,7 +2993,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesPaysDun._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Riders of Rohan, page 152</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3004,7 +3004,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesPaysDun._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Riders of Rohan, page 152</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3015,7 +3015,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesPaysDun._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Riders of Rohan, page 153</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -3028,7 +3028,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesPaysDun._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Riders of Rohan, page 153</em></p>" },
         active: { value: true },
         cost: { value: 1 },
@@ -3041,7 +3041,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesDuLac._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Guide de la Ville du lac, page 28</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3052,7 +3052,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesDuLac._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Guide de la Ville du lac, page 28</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3063,7 +3063,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesDuLac._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Guide de la Ville du lac, page 28</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3074,7 +3074,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesDuLac._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Guide de la Ville du lac, page 28</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3085,7 +3085,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesDuLac._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Guide de la Ville du lac, page 29</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3096,7 +3096,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesDesBoisDesTerresSauvages._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 114</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3107,7 +3107,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesDesBoisDesTerresSauvages._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 114</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3118,7 +3118,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesDesBoisDesTerresSauvages._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 115</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3129,7 +3129,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesDesBoisDesTerresSauvages._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 115</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3140,7 +3140,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusHommesDesBoisDesTerresSauvages._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 115</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3151,7 +3151,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusRodeurDuNord._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 124</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3162,7 +3162,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusRodeurDuNord._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 125</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3173,7 +3173,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusRodeurDuNord._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 125</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3184,7 +3184,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusRodeurDuNord._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 125</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3195,7 +3195,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierVertusRodeurDuNord._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 125</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3206,7 +3206,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesHobbitComte._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 112</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3217,7 +3217,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesHobbitComte._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 113</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3228,7 +3228,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesHobbitComte._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 113</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3239,7 +3239,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesHobbitComte._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 113</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3250,7 +3250,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesHobbitComte._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 113</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3261,7 +3261,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesHobbitBree._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Bree, page 42</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3272,7 +3272,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesHobbitBree._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Bree, page 42</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3283,7 +3283,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesHobbitBree._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Bree, page 43</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3294,7 +3294,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesHobbitBree._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 112</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3305,7 +3305,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesHobbitBree._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 113</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3316,7 +3316,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesHobbitSauvageValleeAnduin._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 112</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3327,7 +3327,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesHobbitSauvageValleeAnduin._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 113</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3338,7 +3338,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesHobbitSauvageValleeAnduin._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 113</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3349,7 +3349,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesHobbitSauvageValleeAnduin._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 113</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3360,7 +3360,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesHobbitSauvageValleeAnduin._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 113</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3371,7 +3371,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesHobbitSauvageValleeAnduin._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion (vo), page 86</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3382,7 +3382,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesElfeForetNoire._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 110</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3393,7 +3393,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesElfeForetNoire._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 111</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3404,7 +3404,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesElfeForetNoire._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 111</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3415,7 +3415,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesElfeForetNoire._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 111</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3426,7 +3426,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesElfeForetNoire._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 112</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3437,7 +3437,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesElfeCapricieuxForetNoire._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion (vo), page 81</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3448,7 +3448,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesElfeCapricieuxForetNoire._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 111</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3459,7 +3459,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesElfeCapricieuxForetNoire._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 111</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3470,7 +3470,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesElfeCapricieuxForetNoire._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 111</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3481,7 +3481,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesElfeCapricieuxForetNoire._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 112</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3492,7 +3492,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesElfeLorien._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion (vo), page 50</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3503,7 +3503,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesElfeLorien._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 111</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3514,7 +3514,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesElfeLorien._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion (vo), page 50</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3525,7 +3525,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesElfeLorien._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 111</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3536,7 +3536,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesElfeLorien._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 112</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3547,7 +3547,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompenseshautElfeRivendell._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 132</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3558,7 +3558,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompenseshautElfeRivendell._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 133</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3569,7 +3569,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompenseshautElfeRivendell._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 133</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3580,7 +3580,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompenseshautElfeRivendell._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 133</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3591,7 +3591,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompenseshautElfeRivendell._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 133</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3602,7 +3602,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesNainErebor._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 108</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3613,7 +3613,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesNainErebor._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 108</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3624,7 +3624,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesNainErebor._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 109</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3635,7 +3635,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesNainErebor._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 110</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3646,7 +3646,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesNainErebor._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 110</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3657,7 +3657,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesNainMontsDeFer._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 108</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3668,7 +3668,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesNainMontsDeFer._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 108</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3679,7 +3679,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesNainMontsDeFer._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Erebor, page 100</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3690,7 +3690,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesNainMontsDeFer._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 110</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3701,7 +3701,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesNainMontsDeFer._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 110</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3712,7 +3712,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesNainMontagnesGrises._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 108</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3723,7 +3723,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesNainMontagnesGrises._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 108</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3734,7 +3734,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesNainMontagnesGrises._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Erebor, page 105</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3745,7 +3745,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesNainMontagnesGrises._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 110</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3756,7 +3756,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesNainMontagnesGrises._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 110</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3767,7 +3767,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesNainMontagnesBleues._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 108</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3778,7 +3778,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesNainMontagnesBleues._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 108</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3789,7 +3789,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesNainMontagnesBleues._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion (vo), page 35</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3800,7 +3800,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesNainMontagnesBleues._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 110</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3811,7 +3811,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/virtue.png",
       folder: dossierRecompensesNainMontagnesBleues._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 110</em></p>" },
         type: { value: "tor1e.virtues.groups.cultural" },
       },
@@ -3987,7 +3987,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesQualites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 118</em></p>" },
         type: { value: "tor1e.reward.groups.qualities" },
       },
@@ -3998,7 +3998,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesQualites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 118</em></p>" },
         type: { value: "tor1e.reward.groups.qualities" },
       },
@@ -4009,7 +4009,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesQualites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 118</em></p>" },
         type: { value: "tor1e.reward.groups.qualities" },
       },
@@ -4020,7 +4020,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesQualites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 118</em></p>" },
         type: { value: "tor1e.reward.groups.qualities" },
       },
@@ -4031,7 +4031,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesQualites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 119</em></p>" },
         type: { value: "tor1e.reward.groups.qualities" },
       },
@@ -4042,7 +4042,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesQualites._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 119</em></p>" },
         type: { value: "tor1e.reward.groups.qualities" },
       },
@@ -4055,7 +4055,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesBardides._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 118</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4066,7 +4066,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesBardides._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 118</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4077,7 +4077,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesBardides._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 118</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4088,7 +4088,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesBeornides._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 118</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4099,7 +4099,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesBeornides._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 119</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4110,7 +4110,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesBeornides._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 119</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4121,7 +4121,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesRohirrim._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book.</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4132,7 +4132,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesRohirrim._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book.</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4143,7 +4143,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesRohirrim._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Référence, page </em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4154,7 +4154,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHommesBree._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Book, page TBD</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4165,7 +4165,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHommesBree._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 119</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4176,7 +4176,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHommesBree._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 119</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4187,7 +4187,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHommesMinasTirith._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 119</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4198,7 +4198,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHommesMinasTirith._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 120</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4209,7 +4209,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHommesMinasTirith._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 120</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4220,7 +4220,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHommesPaysDun._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 120</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4231,7 +4231,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHommesPaysDun._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Riders of Rohan, page 147</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4242,7 +4242,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHommesPaysDun._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Riders of Rohan, page 147</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4253,7 +4253,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHommesDuLac._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Riders of Rohan, page 147</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4264,7 +4264,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHommesDuLac._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Bree, page 43</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4275,7 +4275,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHommesDuLac._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Bree, page 43</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4286,7 +4286,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHommesDesBoisDesTerresSauvages._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Bree, page 43</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4297,7 +4297,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHommesDesBoisDesTerresSauvages._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion (vo), page 68</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4308,7 +4308,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHommesDesBoisDesTerresSauvages._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion (vo), page 68</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4319,7 +4319,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesRodeurDuNord._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion (vo), page 68</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4330,7 +4330,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesRodeurDuNord._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Riders of Rohan, page 153</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4341,7 +4341,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesRodeurDuNord._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Riders of Rohan, page 153</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4352,7 +4352,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHobbitsComte._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Riders of Rohan, page 153</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4363,7 +4363,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHobbitsComte._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Guide de la Ville du Lac, page 29</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4374,7 +4374,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHobbitsComte._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Guide de la Ville du Lac, page 29</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4385,7 +4385,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHobbitsBree._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Guide de la Ville du Lac, page 29</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4396,7 +4396,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHobbitsBree._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 122</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4407,7 +4407,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHobbitsBree._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 122</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4418,7 +4418,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHobbitSauvageValleeAnduin._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 122</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4429,7 +4429,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHobbitSauvageValleeAnduin._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 126</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4440,7 +4440,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHobbitSauvageValleeAnduin._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 126</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4451,7 +4451,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesHobbitSauvageValleeAnduin._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 122</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4462,7 +4462,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesElfeForetNoire._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 126</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4473,7 +4473,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesElfeForetNoire._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 126</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4484,7 +4484,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesElfeForetNoire._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 126</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4495,7 +4495,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesElfeCapricieuxForetNoire._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 121</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4506,7 +4506,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesElfeCapricieuxForetNoire._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 121</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4517,7 +4517,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesElfeCapricieuxForetNoire._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 122</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4528,7 +4528,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesElfeCapricieuxForetNoire._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 121</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4539,7 +4539,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesElfeLorien._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 121</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4550,7 +4550,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesElfeLorien._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 122</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4561,7 +4561,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesElfeLorien._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion (vo), page 86</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4572,7 +4572,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompenseshautElfeRivendell._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 121</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4583,7 +4583,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompenseshautElfeRivendell._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 121</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4594,7 +4594,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompenseshautElfeRivendell._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 121</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4605,7 +4605,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesNainErebor._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 121</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4616,7 +4616,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesNainErebor._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 121</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4627,7 +4627,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesNainErebor._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 121</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4638,7 +4638,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesNainMontsDeFer._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion (vo), page 81</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4649,7 +4649,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesNainMontsDeFer._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion (vo), page 50</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4660,7 +4660,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesNainMontsDeFer._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion (vo), page 50</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4671,7 +4671,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesNainMontagnesGrises._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Adventurer’s Companion (vo), page 50</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4682,7 +4682,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesNainMontagnesGrises._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 134</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4693,7 +4693,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesNainMontagnesGrises._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 134</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4704,7 +4704,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesNainMontagnesBleues._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Rivendell, page 134</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4715,7 +4715,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesNainMontagnesBleues._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 120</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4726,7 +4726,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/reward.png",
       folder: dossierRecompensesNainMontagnesBleues._id,
       permission: { default: 2 },
-      data: {
+      system: {
         description: { value: "<p><em>Core Rule Book, page 120</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
@@ -4788,7 +4788,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/shadow-weakness.png",
       folder: dossierMaledictionVengeance._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 235</em></p>" }, group: { value: "flaw" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 235</em></p>" }, group: { value: "flaw" } },
     });
     await Item.create({
       name: "Brutal",
@@ -4796,7 +4796,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/shadow-weakness.png",
       folder: dossierMaledictionVengeance._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 235</em></p>" }, group: { value: "flaw" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 235</em></p>" }, group: { value: "flaw" } },
     });
     await Item.create({
       name: "Cruel",
@@ -4804,7 +4804,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/shadow-weakness.png",
       folder: dossierMaledictionVengeance._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 236</em></p>" }, group: { value: "flaw" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 236</em></p>" }, group: { value: "flaw" } },
     });
     await Item.create({
       name: "Murderous",
@@ -4812,7 +4812,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/shadow-weakness.png",
       folder: dossierMaledictionVengeance._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 236</em></p>" }, group: { value: "flaw" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 236</em></p>" }, group: { value: "flaw" } },
     });
     await Item.create({
       name: "Greedy",
@@ -4820,7 +4820,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/shadow-weakness.png",
       folder: dossierMalDuDragon._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 236</em></p>" }, group: { value: "flaw" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 236</em></p>" }, group: { value: "flaw" } },
     });
     await Item.create({
       name: "Suspicious",
@@ -4828,7 +4828,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/shadow-weakness.png",
       folder: dossierMalDuDragon._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 236</em></p>" }, group: { value: "flaw" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 236</em></p>" }, group: { value: "flaw" } },
     });
     await Item.create({
       name: "Dishonest",
@@ -4836,7 +4836,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/shadow-weakness.png",
       folder: dossierMalDuDragon._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 236</em></p>" }, group: { value: "flaw" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 236</em></p>" }, group: { value: "flaw" } },
     });
     await Item.create({
       name: "Thief",
@@ -4844,7 +4844,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/shadow-weakness.png",
       folder: dossierMalDuDragon._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 236</em></p>" }, group: { value: "flaw" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 236</em></p>" }, group: { value: "flaw" } },
     });
     await Item.create({
       name: "Bitter",
@@ -4852,7 +4852,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/shadow-weakness.png",
       folder: dossierAttraitDuPouvoir._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 236</em></p>" }, group: { value: "flaw" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 236</em></p>" }, group: { value: "flaw" } },
     });
     await Item.create({
       name: "Arrogant",
@@ -4860,7 +4860,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/shadow-weakness.png",
       folder: dossierAttraitDuPouvoir._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 236</em></p>" }, group: { value: "flaw" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 236</em></p>" }, group: { value: "flaw" } },
     });
     await Item.create({
       name: "Presumptuous",
@@ -4868,7 +4868,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/shadow-weakness.png",
       folder: dossierAttraitDuPouvoir._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 236</em></p>" }, group: { value: "flaw" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 236</em></p>" }, group: { value: "flaw" } },
     });
     await Item.create({
       name: "Tyrannical",
@@ -4876,7 +4876,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/shadow-weakness.png",
       folder: dossierAttraitDuPouvoir._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 236</em></p>" }, group: { value: "flaw" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 236</em></p>" }, group: { value: "flaw" } },
     });
     await Item.create({
       name: "Haughty",
@@ -4884,7 +4884,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/shadow-weakness.png",
       folder: dossierAttraitDesSecrets._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 237</em></p>" }, group: { value: "flaw" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 237</em></p>" }, group: { value: "flaw" } },
     });
     await Item.create({
       name: "Contemptuous",
@@ -4892,7 +4892,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/shadow-weakness.png",
       folder: dossierAttraitDesSecrets._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 237</em></p>" }, group: { value: "flaw" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 237</em></p>" }, group: { value: "flaw" } },
     });
     await Item.create({
       name: "Calculating",
@@ -4900,7 +4900,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/shadow-weakness.png",
       folder: dossierAttraitDesSecrets._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 237</em></p>" }, group: { value: "flaw" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 237</em></p>" }, group: { value: "flaw" } },
     });
     await Item.create({
       name: "Deceitful",
@@ -4908,7 +4908,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/shadow-weakness.png",
       folder: dossierAttraitDesSecrets._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 237</em></p>" }, group: { value: "flaw" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 237</em></p>" }, group: { value: "flaw" } },
     });
     await Item.create({
       name: "Lazy",
@@ -4916,7 +4916,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/shadow-weakness.png",
       folder: dossierFolieItinerante._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 237</em></p>" }, group: { value: "flaw" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 237</em></p>" }, group: { value: "flaw" } },
     });
     await Item.create({
       name: "Distracted",
@@ -4924,7 +4924,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/shadow-weakness.png",
       folder: dossierFolieItinerante._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 237</em></p>" }, group: { value: "flaw" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 237</em></p>" }, group: { value: "flaw" } },
     });
     await Item.create({
       name: "Indifferent",
@@ -4932,7 +4932,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/shadow-weakness.png",
       folder: dossierFolieItinerante._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 237</em></p>" }, group: { value: "flaw" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 237</em></p>" }, group: { value: "flaw" } },
     });
     await Item.create({
       name: "Cowardly",
@@ -4940,7 +4940,7 @@ export class Tor1eCompendiumCaracteristiques {
       img: "systems/tor1e/assets/images/icons/shadow-weakness.png",
       folder: dossierFolieItinerante._id,
       permission: { default: 2 },
-      data: { description: { value: "<p><em>Core Rule Book, page 237</em></p>" }, group: { value: "flaw" } },
+      system: { description: { value: "<p><em>Core Rule Book, page 237</em></p>" }, group: { value: "flaw" } },
     });
 
     console.log("===== END OF CHARACTERISTICS CREATION ====");

@@ -16,39 +16,64 @@ export class Tor1eCompendium {
   // Installation OF CHARACTER Characteristics
   async initCaracteristiques() {
     console.log("=== Tor1eCompendium : CHARACTERISTICS START ===");
-    await this.mesCaracteristiques.creationCaracteristiques();
-    console.log("=== Tor1eCompendium : CHARACTERISTICS END ===");
+    try {
+      await this.mesCaracteristiques.creationCaracteristiques();
+      console.log("=== Tor1eCompendium : CHARACTERISTICS END ===");
+    } catch (error) {
+      console.error("Error initializing characteristics:", error);
+      ui.notifications.error("Failed to initialize characteristics. Check console for details.");
+    }
   }
 
   // INTIALISATION OF EQUIPMENT ITEMS
   async initEquipement() {
     console.log("=== Tor1eCompendium : EQUIPMENT START ===");
-    await this.monEquipement.creationEquipement();
-    console.log("=== Tor1eCompendium : EQUIPMENT END ===");
+    try {
+      await this.monEquipement.creationEquipement();
+      console.log("=== Tor1eCompendium : EQUIPMENT END ===");
+    } catch (error) {
+      console.error("Error initializing equipment:", error);
+      ui.notifications.error("Failed to initialize equipment. Check console for details.");
+    }
   }
 
   // Installation OF ADVERSARIES
   async initAdversaires() {
     console.log("=== Tor1eCompendium : ADVERSARIES START ===");
-    await this.mesAdversaires.creationAdversaires();
-    console.log("=== Tor1eCompendium : ADVERSARIES END ===");
+    try {
+      await this.mesAdversaires.creationAdversaires();
+      console.log("=== Tor1eCompendium : ADVERSARIES END ===");
+    } catch (error) {
+      console.error("Error initializing adversaries:", error);
+      ui.notifications.error("Failed to initialize adversaries. Check console for details.");
+    }
   }
 
   // Installation OF NPCs
   async initPNJs() {
     console.log("=== Tor1eCompendium : NPCs START ===");
-    await this.mesPNJs.creationPNJs();
-    console.log("=== Tor1eCompendium : NPCs END ===");
+    try {
+      await this.mesPNJs.creationPNJs();
+      console.log("=== Tor1eCompendium : NPCs END ===");
+    } catch (error) {
+      console.error("Error initializing NPCs:", error);
+      ui.notifications.error("Failed to initialize NPCs. Check console for details.");
+    }
   }
 
   // Installation OF THE ENTIRE WORLD (Characteristics, items, adversaries)
   async initWorld() {
-    ui.notifications.notify("=== TOR1E - EN - COMPENDIUM : START ===");
-    await this.initCaracteristiques();
-    await this.initEquipement();
-    await this.initAdversaires();
-    await this.initPNJs();
-    ui.notifications.notify("=== TOR1E - EN - COMPENDIUM : END ===");
+    ui.notifications.info("=== TOR1E - EN - COMPENDIUM : START ===");
+    try {
+      await this.initCaracteristiques();
+      await this.initEquipement();
+      await this.initAdversaires();
+      await this.initPNJs();
+      ui.notifications.info("=== TOR1E - EN - COMPENDIUM : END ===");
+    } catch (error) {
+      console.error("Error initializing world:", error);
+      ui.notifications.error("Failed to initialize compendium. Check console for details.");
+    }
   }
 
   // DELETE ALL ACTORS, ITEMS, FOLDERS (after choice)
@@ -68,6 +93,10 @@ export class Tor1eCompendium {
 }
 
 Hooks.once("init", async function () {
-  game.tor1eCompendium = new Tor1eCompendium();
-  console.log("=== Tor1e Compendium : Init ok ===");
+  try {
+    game.tor1eCompendium = new Tor1eCompendium();
+    console.log("=== Tor1e Compendium : Init ok ===");
+  } catch (error) {
+    console.error("Error initializing Tor1e Compendium:", error);
+  }
 });

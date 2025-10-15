@@ -894,7 +894,7 @@ export class Tor1eCompendiumAdversaires {
       type: "adversary",
       folder: _dossier._id,
       img: _img,
-      data: {
+      system: {
         stateOfHealth: { weary: { value: false } },
         attributeLevel: { value: _attLevel },
         endurance: { value: _endurance, max: _endurance },
@@ -925,7 +925,7 @@ export class Tor1eCompendiumAdversaires {
       },
       displayBars: CONST.TOKEN_DISPLAY_MODES.OWNER_HOVER,
       displayName: CONST.TOKEN_DISPLAY_MODES.OWNER_HOVER,
-      vision: false,
+      sight: { enabled: false },
     };
     await monActor.update(update);
 
@@ -965,7 +965,7 @@ export class Tor1eCompendiumAdversaires {
       let monUpdate = {
         _id: monItem._id,
         name: newNom,
-        data: {
+        system: {
           description: {
             value: newDescription,
           },
@@ -993,7 +993,7 @@ export class Tor1eCompendiumAdversaires {
       monUpdate = {
         _id: monItem._id,
         name: nouveauNom,
-        data: {
+        system: {
           protection: {
             value: protection,
           },
@@ -1005,7 +1005,7 @@ export class Tor1eCompendiumAdversaires {
     } else {
       monUpdate = {
         _id: monItem._id,
-        data: {
+        system: {
           protection: {
             value: protection,
           },
@@ -1052,7 +1052,7 @@ export class Tor1eCompendiumAdversaires {
     const monUpdate = {
       _id: monItem._id,
       name: newNom,
-      data: {
+      system: {
         favoured: {
           value: fav,
         },

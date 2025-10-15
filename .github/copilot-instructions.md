@@ -157,7 +157,8 @@ Use `dev.js` methods for:
 
 - [Foundry VTT Module Development Documentation](https://foundryvtt.com/article/module-development/)
 - [Foundry VTT Module Packaging Documentation](https://foundryvtt.com/article/package-management/)
-- [Foundry VTT API Documentation](https://foundryvtt.com/api/v11/)
+- [Foundry VTT v 11 API Documentation](https://foundryvtt.com/api/v11/)
+- [Foundry VTT v 13 API Documentation](https://foundryvtt.com/api/v13/)
 - [TOR1E System Documentation](https://github.com/gregthompson27/tor1e-foundry-vtt)
 
 ## Technologies
