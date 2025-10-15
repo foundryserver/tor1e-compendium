@@ -1,0 +1,52 @@
+name: Package Foundry VTT Module
+
+on:
+    push:
+        branches: [main]
+        tags: ["v*"]
+    pull_request:
+        branches: [main]
+
+jobs:
+    package:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+
+            - name: Get module info
+              id: module_info
+              run: |
+                  echo "name=$(jq -r '.name' module.json)" >> $GITHUB_OUTPUT
+                  echo "version=$(jq -r '.version' module.json)" >> $GITHUB_OUTPUT
+                  echo "title=$(jq -r '.title' module.json)" >> $GITHUB_OUTPUT
+
+            - name: Package module
+              run: |
+                  mkdir -p dist
+                  zip -r "dist/${{ steps.module_info.outputs.name }}-${{ steps.module_info.outputs.version }}.zip" \
+                    . \
+                    -x ".*" \
+                    "node_modules/*" \
+                    "dist/*" \
+                    "*.git*" \
+                    "*.md" \
+                    "package*.json"
+
+            - name: Upload artifact
+              uses: actions/upload-artifact@v4
+              with:
+                  name: ${{ steps.module_info.outputs.name }}-${{ steps.module_info.outputs.version }}
+                  path: dist/${{ steps.module_info.outputs.name }}-${{ steps.module_info.outputs.version }}.zip
+
+            - name: Create Release
+              if: startsWith(github.ref, 'refs/tags/')
+              uses: softprops/action-gh-release@v1
+              with:
+                  files: dist/${{ steps.module_info.outputs.name }}-${{ steps.module_info.outputs.version }}.zip
+                  name: ${{ steps.module_info.outputs.title }} ${{ steps.module_info.outputs.version }}
+                  draft: false
+                  prerelease: false
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
