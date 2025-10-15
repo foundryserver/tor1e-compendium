@@ -331,7 +331,7 @@ export class Tor1eCompendiumEquipement {
         edge: { value: 0 },
         damage: { value: 1 },
         calledShot: { value: "tor1e.weapons.calledShots.none" },
-        description: { value: "<p><em>Voir dans le livre.</em></p>" },
+        description: { value: "<p><em>See core rulebook.</em></p>" },
         ranged: { value: false, short: { value: 0 }, medium: { value: 0 }, long: { value: 0 } },
         group: { value: "tor1e.weapons.groups.none" },
         equipped: { value: false },
@@ -351,7 +351,7 @@ export class Tor1eCompendiumEquipement {
         edge: { value: 0 },
         damage: { value: 1 },
         calledShot: { value: "tor1e.weapons.calledShots.none" },
-        description: { value: "<p><em>Voir dans le livre.</em></p>" },
+        description: { value: "<p><em>See core rulebook.</em></p>" },
         ranged: { value: false, short: { value: 0 }, medium: { value: 0 }, long: { value: 0 } },
         group: { value: "tor1e.weapons.groups.none" },
         equipped: { value: false },
@@ -1065,8 +1065,7 @@ export class Tor1eCompendiumEquipement {
       folder: dossierMusique._id,
       data: {
         description: {
-          value:
-            "<p>Grossièrement sculptée dans un morceau de bois ou un roseau, la flute peut être également un objet finement sculpté par les meilleurs artisans</p>",
+          value: "<p>Grossièrement sculptée dans un morceau de bois ou un roseau, la flute peut être également un objet finement sculpté par les meilleurs artisans</p>",
         },
         encumbrance: { value: 0 },
       },
@@ -1078,8 +1077,7 @@ export class Tor1eCompendiumEquipement {
       folder: dossierMusique._id,
       data: {
         description: {
-          value:
-            "<p>Le musicien pince des cordes tendues entre deux montants parallèles pour produire une sonorité douce, limpide et puissante.</p>",
+          value: "<p>Le musicien pince des cordes tendues entre deux montants parallèles pour produire une sonorité douce, limpide et puissante.</p>",
         },
         encumbrance: { value: 1 },
       },
@@ -1222,8 +1220,7 @@ export class Tor1eCompendiumEquipement {
       folder: dossierOutils._id,
       data: {
         description: {
-          value:
-            "<p>Spécialité des hobbits, la pipe est un objet délicatement dessiné pour fumer des feuilles séchées</p>",
+          value: "<p>Spécialité des hobbits, la pipe est un objet délicatement dessiné pour fumer des feuilles séchées</p>",
         },
         encumbrance: { value: 0 },
       },
@@ -1257,8 +1254,7 @@ export class Tor1eCompendiumEquipement {
       folder: dossierSante._id,
       data: {
         description: {
-          value:
-            "<p>Que ce soit pour agrémenter le fumet d’un repas ou pour ses propriétés médicinales, les champignons ont de grande qualités.</p>",
+          value: "<p>Que ce soit pour agrémenter le fumet d’un repas ou pour ses propriétés médicinales, les champignons ont de grande qualités.</p>",
         },
         encumbrance: { value: 0 },
       },
@@ -1307,8 +1303,7 @@ export class Tor1eCompendiumEquipement {
       folder: dossierVetements._id,
       data: {
         description: {
-          value:
-            "<p>Une carte annotée, un sac bien équilibré, des accessoires peu encombrants, tout ce qu’il faut pour voyager plus aisément.</p>",
+          value: "<p>Une carte annotée, un sac bien équilibré, des accessoires peu encombrants, tout ce qu’il faut pour voyager plus aisément.</p>",
         },
         encumbrance: { value: 0 },
       },

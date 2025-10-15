@@ -4155,7 +4155,7 @@ export class Tor1eCompendiumCaracteristiques {
       folder: dossierRecompensesHommesBree._id,
       permission: { default: 2 },
       data: {
-        description: { value: "<p><em>Livre, page Page</em></p>" },
+        description: { value: "<p><em>Book, page TBD</em></p>" },
         type: { value: "tor1e.reward.groups.cultural" },
       },
     });
