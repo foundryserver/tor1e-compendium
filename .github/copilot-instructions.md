@@ -4,6 +4,10 @@
 
 This project creates a **Foundry VTT v11 module** for **The One Ring 1st Edition (TOR1E)** game system. It's an English translation of an existing French module that provides a comprehensive compendium of game content including character traits, equipment, adversaries, and NPCs. This project is a copy of this project https://gitlab.com/ghorin/tor1e-compendium-fr and is being translated to English.
 
+## Documentation and Official Resources
+
+Look in the resources directory for documentation and official materials for the TOR1E game system. There are core rules, and supplements.
+
 ### Core Functionality
 
 The module delivers a **macro-driven content generation system** that programmatically creates organized Foundry VTT entities (Items, Actors, Folders) based on hardcoded data in JavaScript files.

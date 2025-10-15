@@ -3039,7 +3039,7 @@ export class Tor1eCompendiumCaracteristiques {
       name: "Guild Archer",
       type: "virtues",
       img: "systems/tor1e/assets/images/icons/virtue.png",
-      folder: dossierRecompensesHommesDuLac._id,
+      folder: dossierVertusHommesDuLac._id,
       permission: { default: 2 },
       data: {
         description: { value: "<p><em>Guide de la Ville du lac, page 28</em></p>" },
@@ -3050,7 +3050,7 @@ export class Tor1eCompendiumCaracteristiques {
       name: "Merchant Prince",
       type: "virtues",
       img: "systems/tor1e/assets/images/icons/virtue.png",
-      folder: dossierRecompensesHommesDuLac._id,
+      folder: dossierVertusHommesDuLac._id,
       permission: { default: 2 },
       data: {
         description: { value: "<p><em>Guide de la Ville du lac, page 28</em></p>" },
@@ -3061,7 +3061,7 @@ export class Tor1eCompendiumCaracteristiques {
       name: "Shield Combat",
       type: "virtues",
       img: "systems/tor1e/assets/images/icons/virtue.png",
-      folder: dossierRecompensesHommesDuLac._id,
+      folder: dossierVertusHommesDuLac._id,
       permission: { default: 2 },
       data: {
         description: { value: "<p><em>Guide de la Ville du lac, page 28</em></p>" },
@@ -3072,7 +3072,7 @@ export class Tor1eCompendiumCaracteristiques {
       name: "Business Sense",
       type: "virtues",
       img: "systems/tor1e/assets/images/icons/virtue.png",
-      folder: dossierRecompensesHommesDuLac._id,
+      folder: dossierVertusHommesDuLac._id,
       permission: { default: 2 },
       data: {
         description: { value: "<p><em>Guide de la Ville du lac, page 28</em></p>" },
@@ -3083,7 +3083,7 @@ export class Tor1eCompendiumCaracteristiques {
       name: "Seaman’s Foot",
       type: "virtues",
       img: "systems/tor1e/assets/images/icons/virtue.png",
-      folder: dossierRecompensesHommesDuLac._id,
+      folder: dossierVertusHommesDuLac._id,
       permission: { default: 2 },
       data: {
         description: { value: "<p><em>Guide de la Ville du lac, page 29</em></p>" },
@@ -3094,7 +3094,7 @@ export class Tor1eCompendiumCaracteristiques {
       name: "Song of Devotion",
       type: "virtues",
       img: "systems/tor1e/assets/images/icons/virtue.png",
-      folder: dossierRecompensesHommesDesBoisDesTerresSauvages._id,
+      folder: dossierVertusHommesDesBoisDesTerresSauvages._id,
       permission: { default: 2 },
       data: {
         description: { value: "<p><em>Core Rule Book, page 114</em></p>" },
@@ -3105,7 +3105,7 @@ export class Tor1eCompendiumCaracteristiques {
       name: "Dogs of the Black Forest",
       type: "virtues",
       img: "systems/tor1e/assets/images/icons/virtue.png",
-      folder: dossierRecompensesHommesDesBoisDesTerresSauvages._id,
+      folder: dossierVertusHommesDesBoisDesTerresSauvages._id,
       permission: { default: 2 },
       data: {
         description: { value: "<p><em>Core Rule Book, page 114</em></p>" },
@@ -3116,7 +3116,7 @@ export class Tor1eCompendiumCaracteristiques {
       name: "Medicinal Herbs",
       type: "virtues",
       img: "systems/tor1e/assets/images/icons/virtue.png",
-      folder: dossierRecompensesHommesDesBoisDesTerresSauvages._id,
+      folder: dossierVertusHommesDesBoisDesTerresSauvages._id,
       permission: { default: 2 },
       data: {
         description: { value: "<p><em>Core Rule Book, page 115</em></p>" },
@@ -3127,7 +3127,7 @@ export class Tor1eCompendiumCaracteristiques {
       name: "The Hunter's Will",
       type: "virtues",
       img: "systems/tor1e/assets/images/icons/virtue.png",
-      folder: dossierRecompensesHommesDesBoisDesTerresSauvages._id,
+      folder: dossierVertusHommesDesBoisDesTerresSauvages._id,
       permission: { default: 2 },
       data: {
         description: { value: "<p><em>Core Rule Book, page 115</em></p>" },
@@ -3138,7 +3138,7 @@ export class Tor1eCompendiumCaracteristiques {
       name: "Natural Vigilance",
       type: "virtues",
       img: "systems/tor1e/assets/images/icons/virtue.png",
-      folder: dossierRecompensesHommesDesBoisDesTerresSauvages._id,
+      folder: dossierVertusHommesDesBoisDesTerresSauvages._id,
       permission: { default: 2 },
       data: {
         description: { value: "<p><em>Core Rule Book, page 115</em></p>" },
@@ -3149,7 +3149,7 @@ export class Tor1eCompendiumCaracteristiques {
       name: "Intrepid Guardians",
       type: "virtues",
       img: "systems/tor1e/assets/images/icons/virtue.png",
-      folder: dossierRecompensesRodeurDuNord._id,
+      folder: dossierVertusRodeurDuNord._id,
       permission: { default: 2 },
       data: {
         description: { value: "<p><em>Rivendell, page 124</em></p>" },
@@ -3160,7 +3160,7 @@ export class Tor1eCompendiumCaracteristiques {
       name: "Ranger's Endurance",
       type: "virtues",
       img: "systems/tor1e/assets/images/icons/virtue.png",
-      folder: dossierRecompensesRodeurDuNord._id,
+      folder: dossierVertusRodeurDuNord._id,
       permission: { default: 2 },
       data: {
         description: { value: "<p><em>Rivendell, page 125</em></p>" },
@@ -3171,7 +3171,7 @@ export class Tor1eCompendiumCaracteristiques {
       name: "Revealed Royalty",
       type: "virtues",
       img: "systems/tor1e/assets/images/icons/virtue.png",
-      folder: dossierRecompensesRodeurDuNord._id,
+      folder: dossierVertusRodeurDuNord._id,
       permission: { default: 2 },
       data: {
         description: { value: "<p><em>Rivendell, page 125</em></p>" },
@@ -3182,7 +3182,7 @@ export class Tor1eCompendiumCaracteristiques {
       name: "Whisper of the Earth",
       type: "virtues",
       img: "systems/tor1e/assets/images/icons/virtue.png",
-      folder: dossierRecompensesRodeurDuNord._id,
+      folder: dossierVertusRodeurDuNord._id,
       permission: { default: 2 },
       data: {
         description: { value: "<p><em>Rivendell, page 125</em></p>" },
@@ -3193,7 +3193,7 @@ export class Tor1eCompendiumCaracteristiques {
       name: "Familiar with Nature",
       type: "virtues",
       img: "systems/tor1e/assets/images/icons/virtue.png",
-      folder: dossierRecompensesRodeurDuNord._id,
+      folder: dossierVertusRodeurDuNord._id,
       permission: { default: 2 },
       data: {
         description: { value: "<p><em>Rivendell, page 125</em></p>" },
