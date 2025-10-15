@@ -1,9 +1,9 @@
 {
-  "name": "fvtt-tor1e-compendium",
+  "name": "fvtt-tor1e-compendium (English)",
   "title": "TOR1E - Compendium (en)",
   "description": "<p>TOR1E: Compendium including all character sheet features (skills, traits, special abilities) and standard equipment (weapons, armor pieces, ...)</p>",
-  "version": "1.0.6",
-  "author": "Ghorin",
+  "version": "1.0.7",
+  "author": "Ghorin/FoundryServer",
   "compatibility": {
     "minimum": "11",
     "verified": "11.313",
@@ -24,5 +24,5 @@
   "esmodules": ["./main.mjs"],
   "url": "https://github.com/foundryserver/tor1e-compendium",
   "manifest": "https://raw.githubusercontent.com/foundryserver/tor1e-compendium/refs/heads/main/module.json",
-  "download": "https://github.com/foundryserver/tor1e-compendium/archive/refs/tags/v1.0.6.zip"
+  "download": "https://github.com/foundryserver/tor1e-compendium/archive/refs/tags/v1.0.7.zip"
 }

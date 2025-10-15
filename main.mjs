@@ -13,7 +13,7 @@ export class Tor1eCompendium {
     this.dev = new Tor1eCompendiumDev();
   }
 
-  // INITIALISATION OF CHARACTER CARACTERISTICS
+  // Installation OF CHARACTER Characteristics
   async initCaracteristiques() {
     console.log("=== Tor1eCompendium : CHARACTERISTICS START ===");
     await this.mesCaracteristiques.creationCaracteristiques();
@@ -27,21 +27,21 @@ export class Tor1eCompendium {
     console.log("=== Tor1eCompendium : EQUIPMENT END ===");
   }
 
-  // INITIALISATION OF ADVERSARIES
+  // Installation OF ADVERSARIES
   async initAdversaires() {
     console.log("=== Tor1eCompendium : ADVERSARIES START ===");
     await this.mesAdversaires.creationAdversaires();
     console.log("=== Tor1eCompendium : ADVERSARIES END ===");
   }
 
-  // INITIALISATION OF PNJs
+  // Installation OF NPCs
   async initPNJs() {
     console.log("=== Tor1eCompendium : NPCs START ===");
     await this.mesPNJs.creationPNJs();
     console.log("=== Tor1eCompendium : NPCs END ===");
   }
 
-  // INITIALISATION OF THE ENTIRE WORLD (caracteristics, items, adversaries)
+  // Installation OF THE ENTIRE WORLD (Characteristics, items, adversaries)
   async initWorld() {
     ui.notifications.notify("=== TOR1E - EN - COMPENDIUM : START ===");
     await this.initCaracteristiques();
@@ -69,5 +69,5 @@ export class Tor1eCompendium {
 
 Hooks.once("init", async function () {
   game.tor1eCompendium = new Tor1eCompendium();
-  console.log("=== Tor1eCompendium : Init ok ===");
+  console.log("=== Tor1e Compendium : Init ok ===");
 });
