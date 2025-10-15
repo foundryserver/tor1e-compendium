@@ -56,7 +56,7 @@ jobs:
             - name: Package module
               run: |
                   mkdir -p dist
-                  zip -r "dist/${{ steps.module_info.outputs.name }}-${{ steps.module_info.outputs.version }}.zip" \
+                  zip -r "dist/${{ steps.module_info.outputs.version }}.zip" \
                     . \
                     -x ".*" \
                     "node_modules/*" \
@@ -98,7 +98,7 @@ jobs:
                   echo "- **Name:** ${{ steps.module_info.outputs.name }}" >> $GITHUB_STEP_SUMMARY
                   echo "- **Title:** ${{ steps.module_info.outputs.title }}" >> $GITHUB_STEP_SUMMARY
                   echo "- **Version:** ${{ steps.module_info.outputs.version }}" >> $GITHUB_STEP_SUMMARY
-                  echo "- **Package:** ${{ steps.module_info.outputs.name }}-${{ steps.module_info.outputs.version }}.zip" >> $GITHUB_STEP_SUMMARY
+                  echo "- **Package:** ${{ steps.module_info.outputs.version }}.zip" >> $GITHUB_STEP_SUMMARY
                   echo "" >> $GITHUB_STEP_SUMMARY
                   if [[ "${{ github.ref_type }}" == "tag" ]] || [[ "${{ steps.check_release.outputs.should_release }}" == "true" ]]; then
                     echo "### ✅ Release Created" >> $GITHUB_STEP_SUMMARY
