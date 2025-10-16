@@ -15,63 +15,63 @@ export class Tor1eCompendium {
 
   // Installation OF CHARACTER Characteristics
   async initCaracteristiques() {
-    console.log("=== Tor1eCompendium : CHARACTERISTICS START ===");
+    console.log(" --=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-  Tor1e Compendium : CHARACTERISTICS START -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- ");
     try {
       await this.mesCaracteristiques.creationCaracteristiques();
-      console.log("=== Tor1eCompendium : CHARACTERISTICS END ===");
+      console.log(" --=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-  Tor1e Compendium : CHARACTERISTICS END -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- ");
     } catch (error) {
-      console.error("Error initializing characteristics:", error);
+      console.error("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-Error initializing characteristics:", error);
       ui.notifications.error("Failed to initialize characteristics. Check console for details.");
     }
   }
 
-  // INTIALISATION OF EQUIPMENT ITEMS
+  // Installation OF EQUIPMENT ITEMS
   async initEquipement() {
-    console.log("=== Tor1eCompendium : EQUIPMENT START ===");
+    console.log(" --=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-  Tor1e Compendium : EQUIPMENT START -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- ");
     try {
       await this.monEquipement.creationEquipement();
-      console.log("=== Tor1eCompendium : EQUIPMENT END ===");
+      console.log(" --=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-  Tor1e Compendium : EQUIPMENT END -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- ");
     } catch (error) {
-      console.error("Error initializing equipment:", error);
+      console.error("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- Error initializing equipment:", error);
       ui.notifications.error("Failed to initialize equipment. Check console for details.");
     }
   }
 
   // Installation OF ADVERSARIES
   async initAdversaires() {
-    console.log("=== Tor1eCompendium : ADVERSARIES START ===");
+    console.log(" --=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-  Tor1e Compendium : ADVERSARIES START -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- ");
     try {
       await this.mesAdversaires.creationAdversaires();
-      console.log("=== Tor1eCompendium : ADVERSARIES END ===");
+      console.log(" --=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-  Tor1e Compendium : ADVERSARIES END -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- ");
     } catch (error) {
-      console.error("Error initializing adversaries:", error);
+      console.error("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- Error initializing adversaries:", error);
       ui.notifications.error("Failed to initialize adversaries. Check console for details.");
     }
   }
 
   // Installation OF NPCs
   async initPNJs() {
-    console.log("=== Tor1eCompendium : NPCs START ===");
+    console.log(" --=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-  Tor1e Compendium : NPCs START -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- ");
     try {
       await this.mesPNJs.creationPNJs();
-      console.log("=== Tor1eCompendium : NPCs END ===");
+      console.log(" --=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-  Tor1e Compendium : NPCs END -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- ");
     } catch (error) {
-      console.error("Error initializing NPCs:", error);
+      console.error("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- Error initializing NPCs:", error);
       ui.notifications.error("Failed to initialize NPCs. Check console for details.");
     }
   }
 
   // Installation OF THE ENTIRE WORLD (Characteristics, items, adversaries)
   async initWorld() {
-    ui.notifications.info("=== TOR1E - EN - COMPENDIUM : START ===");
+    ui.notifications.info(" --=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-  TOR1E - EN - COMPENDIUM : START -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- ");
     try {
       await this.initCaracteristiques();
       await this.initEquipement();
       await this.initAdversaires();
       await this.initPNJs();
-      ui.notifications.info("=== TOR1E - EN - COMPENDIUM : END ===");
+      ui.notifications.info(" --=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-  TOR1E - EN - COMPENDIUM : END -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- ");
     } catch (error) {
-      console.error("Error initializing world:", error);
+      console.error("--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- Error initializing world:", error);
       ui.notifications.error("Failed to initialize compendium. Check console for details.");
     }
   }
@@ -93,11 +93,6 @@ export class Tor1eCompendium {
 }
 
 Hooks.once("init", async function () {
-  try {
-    game.tor1eCompendium = new Tor1eCompendium();
-
-    console.log("=== Tor1e Compendium : Init ok ===");
-  } catch (error) {
-    console.error("Error initializing Tor1e Compendium:", error);
-  }
+  game.tor1eCompendium = new Tor1eCompendium();
+  console.log(" --=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-  Tor1e Compendium : Init ok -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- ");
 });
