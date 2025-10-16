@@ -95,6 +95,7 @@ export class Tor1eCompendium {
 Hooks.once("init", async function () {
   try {
     game.tor1eCompendium = new Tor1eCompendium();
+
     console.log("=== Tor1e Compendium : Init ok ===");
   } catch (error) {
     console.error("Error initializing Tor1e Compendium:", error);

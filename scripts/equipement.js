@@ -1054,9 +1054,9 @@ export class Tor1eCompendiumEquipement {
     await Item.create({
       name: "Horn",
       type: "miscellaneous",
-      img: "modules/fvtt-tor1e-compendium/images/divers/Cor.webp",
+      img: "modules/tor1e-compendium/images/divers/Cor.webp",
       folder: dossierMusique._id,
-      system: { description: { value: "<p>Instrument à embouchure en bois ou métal</p>" }, encumbrance: { value: 0 } },
+      system: { description: { value: "<p>Wind instrument made of wood or metal</p>" }, encumbrance: { value: 0 } },
     });
     await Item.create({
       name: "Flute",
@@ -1065,7 +1065,7 @@ export class Tor1eCompendiumEquipement {
       folder: dossierMusique._id,
       system: {
         description: {
-          value: "<p>Grossièrement sculptée dans un morceau de bois ou un roseau, la flute peut être également un objet finement sculpté par les meilleurs artisans</p>",
+          value: "<p>Roughly carved from a piece of wood or a reed, the flute can also be an object finely crafted by the best artisans</p>",
         },
         encumbrance: { value: 0 },
       },
@@ -1077,7 +1077,7 @@ export class Tor1eCompendiumEquipement {
       folder: dossierMusique._id,
       system: {
         description: {
-          value: "<p>Le musicien pince des cordes tendues entre deux montants parallèles pour produire une sonorité douce, limpide et puissante.</p>",
+          value: "<p>The musician plucks strings stretched between two parallel uprights to produce a soft, clear and powerful sound.</p>",
         },
         encumbrance: { value: 1 },
       },
@@ -1088,7 +1088,7 @@ export class Tor1eCompendiumEquipement {
       img: "icons/tools/instruments/lute-gold-brown.webp",
       folder: dossierMusique._id,
       system: {
-        description: { value: "<p>Instrument à corde tendues au-dessus d’un bois creux résonnant</p>" },
+        description: { value: "<p>String instrument with strings stretched over a hollow resonating wood body</p>" },
         encumbrance: { value: 1 },
       },
     });
@@ -1099,7 +1099,7 @@ export class Tor1eCompendiumEquipement {
       folder: dossierMusique._id,
       system: {
         description: {
-          value: "<p>Une peau animale tendue sur un objet creux en bois permet de produire un soc sec et claquant</p>",
+          value: "<p>Animal skin stretched over a hollow wooden object produces a dry and sharp sound</p>",
         },
         encumbrance: { value: 1 },
       },
@@ -1110,7 +1110,7 @@ export class Tor1eCompendiumEquipement {
       img: "icons/tools/scribal/ink-quill-pink.webp",
       folder: dossierOutils._id,
       system: {
-        description: { value: "<p>Parchemins, encres et plumes pour un érudit souhaitant noter ses découvertes</p>" },
+        description: { value: "<p>Parchments, inks and quills for a scholar wishing to note their discoveries</p>" },
         encumbrance: { value: 0 },
       },
     });
@@ -1121,7 +1121,7 @@ export class Tor1eCompendiumEquipement {
       folder: dossierOutils._id,
       system: {
         description: {
-          value: "<p>Bougie donnant un éclairage succin mais suffisant pour voir plus loin que ses pieds</p>",
+          value: "<p>Candle providing meager but sufficient lighting to see further than one's feet</p>",
         },
         encumbrance: { value: 0 },
       },
@@ -1133,7 +1133,7 @@ export class Tor1eCompendiumEquipement {
       folder: dossierOutils._id,
       system: {
         description: {
-          value: "<p>Couteau dont le forme permet de pénétrer et découper proprement la peau animale</p>",
+          value: "<p>Knife whose shape allows for penetrating and cleanly cutting animal hide</p>",
         },
         encumbrance: { value: 0 },
       },
@@ -1145,7 +1145,7 @@ export class Tor1eCompendiumEquipement {
       folder: dossierOutils._id,
       system: {
         description: {
-          value: "Petit filet permettant de pêcher depuis la rive ou d’une barque dans une rivière ou un lac</p>",
+          value: "<p>Small net for fishing from the shore or from a boat in a river or lake</p>",
         },
         encumbrance: { value: 1 },
       },
@@ -1157,7 +1157,7 @@ export class Tor1eCompendiumEquipement {
       folder: dossierOutils._id,
       system: {
         description: {
-          value: "<p>Simple lampe en métal contenant une bougie oun une mèche et un contenant d’huile</p>",
+          value: "<p>Simple metal lamp containing a candle or a wick and an oil container</p>",
         },
         encumbrance: { value: 0 },
       },
@@ -1168,7 +1168,7 @@ export class Tor1eCompendiumEquipement {
       img: "icons/tools/cooking/mortar-herbs-yellow.webp",
       folder: dossierOutils._id,
       system: {
-        description: { value: "<p>Outils de mesure, de découpe et de couture pour les pièces de cuir.</p>" },
+        description: { value: "<p>Measuring, cutting and preparation tools for medicinal herbs and concoctions</p>" },
         encumbrance: { value: 1 },
       },
     });
@@ -1179,7 +1179,7 @@ export class Tor1eCompendiumEquipement {
       folder: dossierOutils._id,
       system: {
         description: {
-          value: "<p>Une casserole pour faire mijoter un lapin fraichement capturé, une cuillère et un gobelet …</p>",
+          value: "<p>A pot to simmer a freshly caught rabbit, a spoon and a cup...</p>",
         },
         encumbrance: { value: 0 },
       },
@@ -1189,7 +1189,7 @@ export class Tor1eCompendiumEquipement {
       type: "miscellaneous",
       img: "icons/tools/smithing/pincers.webp",
       folder: dossierOutils._id,
-      system: { description: { value: "<p>Pinces et marteaux de forgeron</p>" }, encumbrance: { value: 1 } },
+      system: { description: { value: "<p>Blacksmith's tongs and hammers</p>" }, encumbrance: { value: 1 } },
     });
     await Item.create({
       name: "Tailor's tools",
@@ -1198,7 +1198,7 @@ export class Tor1eCompendiumEquipement {
       folder: dossierOutils._id,
       system: {
         description: {
-          value: "<p>Ciseaux, aiguilles et autres outils de confection de vêtements et accessoires vestimentaires</p>",
+          value: "<p>Scissors, needles and other tools for making clothing and clothing accessories</p>",
         },
         encumbrance: { value: 1 },
       },
@@ -1206,10 +1206,10 @@ export class Tor1eCompendiumEquipement {
     await Item.create({
       name: "Leatherworking tools",
       type: "miscellaneous",
-      img: "modules/fvtt-tor1e-compendium/images/divers/Outils_cuir.webp",
+      img: "modules/tor1e-compendium/images/divers/Outils_cuir.webp",
       folder: dossierOutils._id,
       system: {
-        description: { value: "<p>Outils de mesure, de découpe et de couture pour les pièces de cuir.</p>" },
+        description: { value: "<p>Measuring, cutting and stitching tools for leather pieces.</p>" },
         encumbrance: { value: 1 },
       },
     });
@@ -1220,7 +1220,7 @@ export class Tor1eCompendiumEquipement {
       folder: dossierOutils._id,
       system: {
         description: {
-          value: "<p>Spécialité des hobbits, la pipe est un objet délicatement dessiné pour fumer des feuilles séchées</p>",
+          value: "<p>A hobbit specialty, the pipe is a delicately designed object for smoking dried leaves</p>",
         },
         encumbrance: { value: 0 },
       },
@@ -1228,21 +1228,21 @@ export class Tor1eCompendiumEquipement {
     await Item.create({
       name: "Torch",
       type: "miscellaneous",
-      img: "modules/fvtt-tor1e-compendium/images/divers/Torche.webp",
+      img: "modules/tor1e-compendium/images/divers/Torche.webp",
       folder: dossierOutils._id,
       system: {
-        description: { value: "<p>Baton enveloppé de tissus qu'on enflamme pour éclairer.</p>" },
+        description: { value: "<p>Stick wrapped in cloth that is lit for illumination.</p>" },
         encumbrance: { value: 0 },
       },
     });
     await Item.create({
       name: "Bandages",
       type: "miscellaneous",
-      img: "modules/fvtt-tor1e-compendium/images/divers/Bandages.webp",
+      img: "modules/tor1e-compendium/images/divers/Bandages.webp",
       folder: dossierSante._id,
       system: {
         description: {
-          value: "<p>Bande de tissus propre permettant de protéger une plaie ou de maintenir un soin.</p>",
+          value: "<p>Clean cloth strip to protect a wound or maintain a dressing.</p>",
         },
         encumbrance: { value: 0 },
       },
@@ -1250,11 +1250,11 @@ export class Tor1eCompendiumEquipement {
     await Item.create({
       name: "Mushrooms",
       type: "miscellaneous",
-      img: "modules/fvtt-tor1e-compendium/images/divers/Champignons.webp",
+      img: "modules/tor1e-compendium/images/divers/Champignons.webp",
       folder: dossierSante._id,
       system: {
         description: {
-          value: "<p>Que ce soit pour agrémenter le fumet d’un repas ou pour ses propriétés médicinales, les champignons ont de grande qualités.</p>",
+          value: "<p>Whether to enhance the flavor of a meal or for their medicinal properties, mushrooms have great qualities.</p>",
         },
         encumbrance: { value: 0 },
       },
@@ -1262,11 +1262,11 @@ export class Tor1eCompendiumEquipement {
     await Item.create({
       name: "Medicinal herbs",
       type: "miscellaneous",
-      img: "modules/fvtt-tor1e-compendium/images/divers/Herbe_medicinale.webp",
+      img: "modules/tor1e-compendium/images/divers/Herbe_medicinale.webp",
       folder: dossierSante._id,
       system: {
         description: {
-          value: "<p>Herbes fraiches ou séchées, sous forme de baume ou de concoction à diluer et boire...</p>",
+          value: "<p>Fresh or dried herbs, in balm form or as a concoction to dilute and drink...</p>",
         },
         encumbrance: { value: 0 },
       },
@@ -1278,7 +1278,7 @@ export class Tor1eCompendiumEquipement {
       folder: dossierSante._id,
       system: {
         description: {
-          value: "<p>Concoction préparée par un herboriste et qu’on applique sur une blessure pour l’apaiser</p>",
+          value: "<p>Concoction prepared by an herbalist that is applied to a wound to soothe it</p>",
         },
         encumbrance: { value: 0 },
       },
@@ -1286,12 +1286,11 @@ export class Tor1eCompendiumEquipement {
     await Item.create({
       name: "Travel pack",
       type: "miscellaneous",
-      img: "modules/fvtt-tor1e-compendium/images/divers/Paquetage_voyage.webp",
+      img: "modules/tor1e-compendium/images/divers/Paquetage_voyage.webp",
       folder: dossierSante._id,
       system: {
         description: {
-          value:
-            "<p><h3><span style=’text-decoration: underline;’><strong>Automne et Hiver</strong></span></h3><ul><li>Contenu : Vêtements épais et chauds (vestes, cape doublée de fourrure), couverture, eau et vivres pour une semaine de voyage.</li><li>Encombrement : 3</li></ul></p><p><h3><span style=’text-decoration: underline;’><strong>Printemps et été</strong></span></h3><ul><li>Contenu :  : Vêtements fins et légers, cape et couverture peu épaisse, eau et vivres pour une semaine de voyage.</li><li>Encombrement : 2</p>",
+          value: "<p><h3><span style='text-decoration: underline;'><strong>Autumn and Winter</strong></span></h3><ul><li>Contents: Thick and warm clothing (jackets, fur-lined cape), blanket, water and provisions for a week of travel.</li><li>Encumbrance: 3</li></ul></p><p><h3><span style='text-decoration: underline;'><strong>Spring and Summer</strong></span></h3><ul><li>Contents: Fine and light clothing, thin cape and blanket, water and provisions for a week of travel.</li><li>Encumbrance: 2</li></ul></p>",
         },
         encumbrance: { value: 3 },
       },
@@ -1303,7 +1302,7 @@ export class Tor1eCompendiumEquipement {
       folder: dossierVetements._id,
       system: {
         description: {
-          value: "<p>Une carte annotée, un sac bien équilibré, des accessoires peu encombrants, tout ce qu’il faut pour voyager plus aisément.</p>",
+          value: "<p>An annotated map, a well-balanced bag, compact accessories, everything needed to travel more easily.</p>",
         },
         encumbrance: { value: 0 },
       },
@@ -1315,7 +1314,7 @@ export class Tor1eCompendiumEquipement {
       folder: dossierVetements._id,
       system: {
         description: {
-          value: "<p>Vêtements de bonne qualité permettant de côtoyer la cour sans paraître ridicule</p>",
+          value: "<p>Good quality clothing allowing one to frequent the court without appearing ridiculous</p>",
         },
         encumbrance: { value: 1 },
       },
@@ -1327,7 +1326,7 @@ export class Tor1eCompendiumEquipement {
       folder: dossierVetements._id,
       system: {
         description: {
-          value: "<p>Peau tannée et lissée. Très chaude en hiver et donnant un aspect bestial au porteur</p>",
+          value: "<p>Tanned and smoothed hide. Very warm in winter and gives the wearer a bestial appearance</p>",
         },
         encumbrance: { value: 1 },
       },
@@ -1335,10 +1334,10 @@ export class Tor1eCompendiumEquipement {
     await Item.create({
       name: "Dog",
       type: "miscellaneous",
-      img: "modules/fvtt-tor1e-compendium/images/divers/Chien.webp",
+      img: "modules/tor1e-compendium/images/divers/Chien.webp",
       folder: dossierAnimaux._id,
       system: {
-        description: { value: "<p>Chien domestiqué qui aide à mener les troupeaux et garder la demeure.</p>" },
+        description: { value: "<p>Domesticated dog that helps herd flocks and guard the home.</p>" },
         encumbrance: { value: 0 },
       },
     });
@@ -1349,7 +1348,7 @@ export class Tor1eCompendiumEquipement {
       folder: dossierDomaines._id,
       system: {
         description: {
-          value: "<p>Cabane fébrile dans le vent, maison de pierre, corps de ferme, auberge, demeure opulente .…</p>",
+          value: "<p>Rickety shack in the wind, stone house, farm buildings, inn, opulent dwelling...</p>",
         },
         encumbrance: { value: 0 },
       },
@@ -1359,21 +1358,21 @@ export class Tor1eCompendiumEquipement {
       type: "miscellaneous",
       img: "icons/containers/bags/coinpouch-simple-leather-silver-brown.webp",
       folder: dossierOutils._id,
-      system: { description: { value: "<p>Petit sac en cuir</p>" }, encumbrance: { value: 0 } },
+      system: { description: { value: "<p>Small leather bag</p>" }, encumbrance: { value: 0 } },
     });
     await Item.create({
       name: "Paper",
       type: "miscellaneous",
       img: "icons/sundries/scrolls/scroll-writing-gold.webp",
       folder: dossierOutils._id,
-      system: { description: { value: "<p>Feuille de parchemin ou de cuir</p>" }, encumbrance: { value: 0 } },
+      system: { description: { value: "<p>Sheet of parchment or leather</p>" }, encumbrance: { value: 0 } },
     });
     await Item.create({
       name: "Gem",
       type: "miscellaneous",
       img: "icons/commodities/gems/gem-faceted-round-white.webp",
       folder: dossierOutils._id,
-      system: { description: { value: "<p>Pierre précieuse ou pas</p>" }, encumbrance: { value: 0 } },
+      system: { description: { value: "<p>Precious stone or not</p>" }, encumbrance: { value: 0 } },
     });
     await Item.create({
       name: "Walking staff",
@@ -1381,7 +1380,7 @@ export class Tor1eCompendiumEquipement {
       img: "icons/tools/fasteners/pin-round.webp",
       folder: dossierOutils._id,
       system: {
-        description: { value: "<p>Simple branche sommairement taillée ou pièce de bois finement gravée</p>" },
+        description: { value: "<p>Simple roughly carved branch or finely engraved piece of wood</p>" },
         encumbrance: { value: 0 },
       },
     });

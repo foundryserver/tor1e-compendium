@@ -30,3 +30,6 @@ Config/
 
 # References directory and subdirectories
 references/**/*
+
+# icons
+icons/bulk-icons/**/*
